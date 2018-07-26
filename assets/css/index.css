@@ -90,42 +90,42 @@ body{
     height: 300px;
     margin: 0px;
     padding: 0px;
-    background-image: url('/assets/images/screenPrinting.jpg');
+    background-image: url('../images/screenPrinting.jpg');
 }
 
 .ser2{
     height: 300px;
     margin: 0px;
     padding: 0px;
-    background-image: url('/assets/images/banner.jpg');
+    background-image: url('../images/banner.jpg');
     background-position: center;
 }
 .ser3{
     height: 300px;
     margin: 0px;
     padding: 0px;
-    background-image: url('/assets/images/embrod.jpg');
+    background-image: url('../images/embrod.jpg');
     background-position: center;
 }
 .ser4{
     height: 300px;
     margin: 0px;
     padding: 0px;
-    background-image: url('/assets/images/magnets.jpg');
+    background-image: url('../images/magnets.jpg');
     background-size: cover;
 }
 .ser5{
     height: 300px;
     margin: 0px;
     padding: 0px;
-    background-image: url('/assets/images/heat.jpg');
+    background-image: url('../images/heat.jpg');
     background-size: cover;
 }
 .ser6{
     height: 300px;
     margin: 0px;
     padding: 0px;
-    background-image: url('/assets/images/wallBorder.jpg');
+    background-image: url('../images/wallBorder.jpg');
     background-position: center;
 }
 
