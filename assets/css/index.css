@@ -1,0 +1,255 @@
+body{
+    overflow-x: hidden;
+}
+.custom{
+    text-align: center;
+    height: 3vh;
+    background-color: royalblue;
+    color: white;
+}
+
+.banner{
+    background-image: url(/assets/images/emarts-emarts-68775-unsplash.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.name{
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+    text-shadow: 5px 5px 10px royalblue;
+    font-size: 50px;
+}
+
+.slogan{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px royalblue;
+    font-size: 40px;
+
+}
+
+.why{
+    height: 50vh;
+    margin-top: 80px;
+    margin-bottom: 20px;
+ 
+}
+
+.choose{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.choose:before, .choose:after {
+ content: '';
+  width: 150px;
+  height: 2px;
+  background: grey;
+  margin: 0 10px;
+
+}
+
+.icons1 {
+    width: 40%;
+}
+
+.col {
+    margin: 0px;
+}
+
+.services{
+    
+    background-color: rgb(235, 232, 232);
+    margin-top: 5%;
+}
+
+.lines{
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.lines:before, .lines:after {
+ content: '';
+  width: 150px;
+  height: 2px;
+  background: grey;
+  margin: 0 10px;
+
+}
+
+.ser1{
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/assets/images/screenPrinting.jpg');
+}
+
+.ser2{
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/assets/images/banner.jpg');
+    background-position: center;
+}
+.ser3{
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/assets/images/embrod.jpg');
+    background-position: center;
+}
+.ser4{
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/assets/images/magnets.jpg');
+    background-size: cover;
+}
+.ser5{
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/assets/images/heat.jpg');
+    background-size: cover;
+}
+.ser6{
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/assets/images/wallBorder.jpg');
+    background-position: center;
+}
+
+.hidden{
+    height: 100%;
+    position: relative;
+    
+   
+}
+
+.hidden:hover{
+    height: 100%;
+    position: relative;
+    top: 0px;
+    background-color: black;
+    visibility: visible;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    -webkit-transition: background-color 1ms ease-out .0s;
+    -moz-transition: background-color 1ms ease-out .0s;
+    -o-transition: background-color 500ms ease-out .0s;
+    transition: background-color 1000ms ease-out .0s;
+
+
+}
+
+.hidden:hover .des{
+ display: block;
+}
+.des{
+   display: none;
+   margin-left: 10px;
+   margin-right: 10px;
+   letter-spacing: 1px;
+}
+
+.ser{
+
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+ #col-md-4{
+    padding: 0px;
+}
+
+#row1{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.form{
+    margin-top: 60px;
+  
+}
+
+.btn2{
+    background-color: royalblue;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.footer{
+    margin-top: 70px;
+    padding: 0px;
+    margin-right: -20px;
+    
+}
+
+.footheader{
+    height: 10vh;
+    background-color: royalblue;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Connect{
+    margin-top: 20px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    float: left;
+}
+
+.icons{
+    margin-right: 40px;
+    margin-top: 10px;
+    width: 50px;
+    float: right;
+}
+
+.rows{
+    
+    background-color: rgb(77, 75, 75);
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.names{
+    margin-top: 20px;
+    padding: 0px;
+    margin-bottom: -20px;
+    font-size: 20px;
+}
+.hr{
+    width: 20%;
+    background-color: white;
+    padding: 0px;
+}
+
+.footer-copyright{
+    background-color: royalblue;
+    
+}
+
+@media only screen and (max-width: 600px) {
+   .icons{
+       width: 30px;
+        margin-right: 25px;
+   }
+}
