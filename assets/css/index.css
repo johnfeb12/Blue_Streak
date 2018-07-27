@@ -160,15 +160,16 @@ body{
    display: none;
    margin-left: 10px;
    margin-right: 10px;
+   padding-top: 5%;
    letter-spacing: 1px;
 }
 
 .ser{
 
-    height: 300px;
+  height: 350px;
     margin: 0px;
     padding: 0px;
-   
+   width: 300x;
 }
 
  #col-md-4{
@@ -247,9 +248,18 @@ body{
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
    .icons{
        width: 30px;
         margin-right: 25px;
+   }
+
+   .ser{
+       width: 350px;
+    
+   }
+
+   .col-md-4{
+       margin-left: -80px
    }
 }
